@@ -3,53 +3,101 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content=" Anime Fanpage featuring characters, episodes, rankings, and anime updates.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime Fanpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Anime Fanpage</h1>
+    <header>
+        <h1>Anime Fanpage</h1>
 
-    <ul>
-        <li>Home</li>
-        <li>Characters</li>
-        <li>Episodes</li>
-        <li>Rankings</li>
-        <li>Latest</li>
-    </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="episodes.html">Episodes</a></li>
+                <li><a href="rankings.html">Rankings</a></li>
+                <li><a href="latest.html">Latest</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>Banner Image</h2>
-    <img src="gojo.jpg" alt="Gojo Satoru banner image">
+    <main>
 
-    <h2>Biography / Description</h2>
-    <p>This section contains information about the anime.</p>
+        <section>
+            <h2>Banner Image</h2>
+            <img src="gojo.jpg" alt="Gojo Satoru banner image" width="300">
+        </section>
 
-    <h2>Character Slideshow</h2>
-    <p>Character 1 | Character 2 | Character 3</p>
+        <section>
+            <h2>Biography / Description</h2>
+            <p>
+                This anime fan page is a website about some of my favorite anime characters,
+                episodes, rankings, and current anime updates. I wanted to create a simple fan page
+                that shares anime content in one place.
+            </p>
+        </section>
 
-    <h2>Latest Episodes</h2>
+        <section>
+            <h2>Character Slideshow</h2>
+            <p>Character 1 | Character 2 | Character 3</p>
+            <p>
+                Visit the Characters page to see more information about some of my favorite anime characters.
+            </p>
+        </section>
 
-    <table>
-        <tr>
-            <th>Episode</th>
-            <th>Info</th>
-        </tr>
-        <tr>
-            <td>Episode 1</td>
-            <td>Intro</td>
-        </tr>
-        <tr>
-            <td>Episode 2</td>
-            <td>Story continues</td>
-        </tr>
-        <tr>
-            <td>Episode 3</td>
-            <td>Final episode</td>
-        </tr>
-    </table>
+        <section>
+            <h2>Latest Episodes</h2>
 
-    <h2>About / Contact</h2>
-    <p>Email: tadesmith@email.com</p>
+            <table>
+                <tr>
+                    <th>Episode</th>
+                    <th>Info</th>
+                </tr>
+                <tr>
+                    <td>Episode 1</td>
+                    <td>Intro</td>
+                </tr>
+                <tr>
+                    <td>Episode 2</td>
+                    <td>Story continues</td>
+                </tr>
+                <tr>
+                    <td>Episode 3</td>
+                    <td>Final episode</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>About / Contact</h2>
+            <p>Email: tadesmith@email.com</p>
+
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="anime">Favorite Anime:</label><br>
+                <input type="text" id="anime" name="anime"><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Anime Fanpage Project</p>
+        <p>
+            External Links:
+            <a href="https://www.crunchyroll.com/" target="_blank">Crunchyroll</a> |
+            <a href="https://myanimelist.net/" target="_blank">MyAnimeList</a> |
+            <a href="https://www.viz.com/" target="_blank">VIZ Media</a>
+        </p>
+    </footer>
 
 </body>
 
