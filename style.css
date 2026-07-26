@@ -16,6 +16,15 @@ h1, h2 {
     color: #7db9ff;
 }
 
+header h1 a {
+    color: #7db9ff;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: white;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -61,11 +70,14 @@ table {
     background-color: #222;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid white;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
 }
