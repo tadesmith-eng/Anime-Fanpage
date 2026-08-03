@@ -96,6 +96,11 @@ footer {
     margin-top: 20px;
 }
 
+table img {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+}
 footer a {
     color: #7db9ff;
 }
